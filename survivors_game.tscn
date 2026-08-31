@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://swcb8q32cvqi"]
+
+[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_3cish"]
+[ext_resource type="PackedScene" uid="uid://dq3r015sr1uql" path="res://pine_tree.tscn" id="2_y3pti"]
+[ext_resource type="PackedScene" uid="uid://y38gte5o0xf8" path="res://mob.tscn" id="3_l26od"]
+
+[node name="Game" type="Node2D" unique_id=1227810202]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1848678729]
+layer = -30
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1599016068]
+offset_right = 1963.0
+offset_bottom = 1110.0
+
+[node name="Player" parent="." unique_id=1415374541 instance=ExtResource("1_3cish")]
+position = Vector2(1002, 536)
+
+[node name="Mob" parent="." unique_id=555217904 instance=ExtResource("3_l26od")]
+position = Vector2(612, 306)
+
+[node name="Mob2" parent="." unique_id=1671567163 instance=ExtResource("3_l26od")]
+position = Vector2(603, 497)
+
+[node name="Mob3" parent="." unique_id=435191493 instance=ExtResource("3_l26od")]
+position = Vector2(1304, 310)
+
+[node name="Mob4" parent="." unique_id=1142373235 instance=ExtResource("3_l26od")]
+position = Vector2(1364, 704)
+
+[node name="PineTree" parent="." unique_id=1114045565 instance=ExtResource("2_y3pti")]
+position = Vector2(480, 729)
+
+[node name="PineTree2" parent="." unique_id=222064189 instance=ExtResource("2_y3pti")]
+position = Vector2(330, 302)
+
+[node name="PineTree3" parent="." unique_id=947442073 instance=ExtResource("2_y3pti")]
+position = Vector2(1593, 702)
+
+[node name="PineTree4" parent="." unique_id=168763100 instance=ExtResource("2_y3pti")]
+position = Vector2(1593, 293)
+
+[node name="PineTree5" parent="." unique_id=1394758444 instance=ExtResource("2_y3pti")]
+position = Vector2(1711, 329)
+
+[node name="PineTree6" parent="." unique_id=1689585802 instance=ExtResource("2_y3pti")]
+position = Vector2(1501, 391)
+
+[node name="PineTree7" parent="." unique_id=726286288 instance=ExtResource("2_y3pti")]
+position = Vector2(1154, 933)
+
+[node name="PineTree8" parent="." unique_id=1167310231 instance=ExtResource("2_y3pti")]
+position = Vector2(843, 197)

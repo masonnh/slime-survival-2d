@@ -9,4 +9,4 @@ func _physics_process(delta: float): # engine will call each time it needs to ca
 	if velocity.length() > 0.0:
 		%HappyBoo.play_walk_animation()
 	else:
-		% HappyBoo.play_idle_animation()
+		%HappyBoo.play_idle_animation()
