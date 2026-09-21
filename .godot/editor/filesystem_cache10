@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788376388
+::res://::1789061681
 bullet.gd::GDScript::5143679735126824684::1788292369::0::1::::<>Area2D<><>0<>0<><>::
 bullet.tscn::PackedScene::4510038469915135496::1788292809::0::1::::<><><>0<>0<><>::uid://cfjvwhypwf5h5::::res://bullet.gd<>uid://bd4rrqj72amnx::::res://pistol/projectile.png
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1787946128::0::1::::<><><>0<>0<><>::
@@ -9,9 +9,10 @@ icon.png::CompressedTexture2D::15047351210411190::1787946128::1787946213::1::::<
 mob.gd::GDScript::8980765933725370575::1788293253::0::1::::<>CharacterBody2D<><>0<>0<><>::
 mob.tscn::PackedScene::1744350205456824847::1788293253::0::1::::<><><>0<>0<><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>uid://d07l5xwryn2cx::::res://mob.gd
 pine_tree.tscn::PackedScene::8341164372918984475::1788209705::0::1::::<><><>0<>0<><>::uid://dk5b8a84a6n2h::::res://characters/ground_shadow.png<>uid://bql1cc345qv7d::::res://trees/pine_tree.png
-player.gd::GDScript::1700623032726953666::1788294143::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::1700623032726953666::1788380050::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.tscn::PackedScene::6636363802798909755::1788371360::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://yh2ao5or56lq::::res://player.gd<>uid://du5i8r7jdycua::::res://gun.tscn
-survivors_game.tscn::PackedScene::1308940475149137596::1788209707::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://player.tscn<>uid://dq3r015sr1uql::::res://pine_tree.tscn<>uid://y38gte5o0xf8::::res://mob.tscn
+survivors_game.gd::GDScript::6600120359613371414::1788380033::0::1::::<>Node2D<><>0<>0<><>::
+survivors_game.tscn::PackedScene::1308940475149137596::1788380213::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://player.tscn<>uid://c1bfau31nfqio::::res://survivors_game.gd<>uid://dq3r015sr1uql::::res://pine_tree.tscn
 ::res://addons/::1787948681
 ::res://addons/colorpicker_presets/::1787948681
 colorpicker_presets.gd::GDScript::2597531570939366545::1787946128::0::1::::<>EditorPlugin<><>0<>1<><>::
